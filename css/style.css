@@ -1,0 +1,44 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.row {
+    width: 33.33%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px 0 0;
+    margin: -5px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.addtocart {
+    height: 50px;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    margin: 5px;
+    color: #45A1D8;
+}
+p {
+    margin: 5px;
+    padding-bottom: 10px;
+    color: #CECECE;
+}
