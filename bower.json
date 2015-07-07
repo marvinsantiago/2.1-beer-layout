@@ -1,0 +1,20 @@
+{
+  "name": "2.1-beer-layout",
+  "version": "0.0.0",
+  "authors": [
+    "Marvin Santiago <marvin.santiago@ymail.com>"
+  ],
+  "description": "Project for beer layout",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reset-css": "~2.0.20110126",
+    "fontawesome": "~4.3.0"
+  }
+}
