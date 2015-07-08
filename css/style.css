@@ -1,0 +1,64 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.row {
+    width: 33.33%;
+    text-align: center;
+/*    display: block;*/
+    padding: 10px 0;
+    float: left;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.addtocart {
+    height: 50px;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1, p {
+    margin: 5px;
+    color: #45A1D8;
+}
+
+h3 {
+    margin: 5px;
+    padding-bottom: 10px;
+    color: #CECECE;
+}
+
+/*Media Query*/
+
+@media (max-width: 1024px) {
+        .row {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+}
+
+@media (max-width:460px) {
+        .row {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}
