@@ -9,21 +9,16 @@ html {
 
 .container {
     width: 100%;
-    display: block;
     margin: auto;
     padding: 10px;
-    border-top: 2px solid #45A1D8;
-    border-left: 2px solid #45A1D8;
-    border-right: 2px solid #45A1D8
 }
 
 .row {
     width: 33.33%;
     text-align: center;
-    display: inline-block;
-    padding: 10px 10px 0 0;
-    margin: auto;
-    overflow: auto;
+/*    display: block;*/
+    padding: 10px 0;
+    float: left;
 }
 
 img {
